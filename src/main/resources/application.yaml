@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: jesussanchez
+  data:
+    mongodb:
+      database: 36_jesus_sanchez
+      uri: mongodb+srv://jesusmiranda_db:ji2TYon32BSwQeT5@cluster0.coow4vh.mongodb.net/?appName=Cluster0
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
